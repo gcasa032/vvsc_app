@@ -12,7 +12,7 @@ mongoose
         app.use(express.json());
 
         //Set routes
-        app.use('/api', require('./api/routes/testimonials'));
+        app.use('/api', require('./api/routes'));
 
         // Listen to port
         app.listen(port, function() {
