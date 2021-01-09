@@ -27,7 +27,7 @@ const header = () => {
                     <hr />
                 </div>
                 <div className="col-lg-8 mx-auto">
-                <p className="text-faded mb-5">Why you should sign up..... Click the link below to sign up for coaching.</p>
+                <p className="text-faded mb-5">Intrested in coaching? Click below to sign up now. If you are already a member you can sign in</p>
                 <Button size='lg' type='button' variant='danger' class="btn btn-danger btn-xl" href="#services">SIGN UP</Button>
             </div>
             </div>
