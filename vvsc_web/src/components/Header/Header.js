@@ -19,6 +19,7 @@ const header = () => {
     }
 
     const btnStyle = {
+        fontWeight: "700",
         borderRadius: "300px",
         padding: ".9rem 1.5rem"
     }
