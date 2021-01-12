@@ -47,10 +47,6 @@
     font-family: Open Sans, Helvetica Neue, Arial, sans-serif;
 }
 
-hr {
-    border: 2px;
-}
-
 @media (min-width:1200px) {
     #header h1 {
         font-size: 4rem;

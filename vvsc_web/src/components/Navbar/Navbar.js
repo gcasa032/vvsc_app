@@ -12,7 +12,7 @@ const navbar = () => {
     // Create nav item component
 
     return (
-        <Navbar bg='dark' expand='lg' variant="dark">
+        <Navbar fixed="top" bg='dark' expand='lg' variant="dark">
             <Navbar.Toggle aria-controls="basic-navbar-nav" />
             <Navbar.Collapse id="basic-navbar-nav">
                 <Nav className="m-auto" id="mainNav">

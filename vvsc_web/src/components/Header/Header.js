@@ -12,6 +12,17 @@ const header = () => {
         margin: '0'
     }
 
+    const hrStyle = {
+        maxWidth: "50px",
+        borderWidth: "3px",
+        borderColor:" #DC3545"
+    }
+
+    const btnStyle = {
+        borderRadius: "300px",
+        padding: ".9rem 1.5rem"
+    }
+
     return (
         <Jumbotron id='header' style={style} className="text-center text-white" fluid={true}>
             <div className="container my-auto"> 
@@ -24,11 +35,11 @@ const header = () => {
                             <strong>STRENGTH &amp; CONDITIONING</strong>
                         </small>
                     </h2>
-                    <hr />
+                    <hr style={hrStyle} />
                 </div>
                 <div className="col-lg-8 mx-auto">
                 <p className="text-faded mb-5">Intrested in coaching? Click below to sign up now. If you are already a member you can sign in</p>
-                <Button size='lg' type='button' variant='danger' class="btn btn-danger btn-xl" href="#services">SIGN UP</Button>
+                <Button style={btnStyle} size='lg' type='button' variant='danger' class="btn btn-danger btn-xl" href="#services">SIGN UP</Button>
             </div>
             </div>
         </Jumbotron>
