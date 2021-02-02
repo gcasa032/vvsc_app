@@ -1,0 +1,37 @@
+.socials a {
+    color: #989c9e;
+}
+
+footer {
+    color: #989c9e;
+}
+
+.footer-basic {
+    padding: 0;
+    color: #4b4c4d;
+}
+
+.footer-basic ul {
+    padding: 0;
+    list-style: none;
+    text-align: center;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 0;
+}
+
+.footer-basic li {
+    color: #ffffff;
+    padding: 0 10px;
+    font-size: .95rem;
+    font-weight: 700;
+    text-transform: uppercase;
+}
+
+.footer-basic .copyright {
+    margin-top: 15px;
+    text-align: center;
+    font-size: 14px;
+    color: #aaa;
+    margin-bottom: 0;
+}

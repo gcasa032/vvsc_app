@@ -5,7 +5,7 @@ import './AboutMe.css';
 
 import logo from '../../assets/img/AboutMe/logo.png';
 
-const aboutMe = () => {
+const aboutMe = ( props ) => {
 
     const hrStyle = {
         maxWidth: "50px",
@@ -14,7 +14,7 @@ const aboutMe = () => {
     }
 
     return (
-        <div id='AboutMe' className="bg-danger" stlye={{background: 'linear-gradient(rgba(162,46,136,0.25), rgba(3,53,227,0.25))'}}>
+        <div id= {props.id} className="bg-danger AboutMe" stlye={{background: 'linear-gradient(rgba(162,46,136,0.25), rgba(3,53,227,0.25))'}}>
             <div className='container'>
                 <div className='row'>
                     <div className='col'>

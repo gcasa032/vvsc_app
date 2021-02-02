@@ -1,0 +1,21 @@
+@media (min-width:768px) {
+    p {
+        font-size: 1.15rem;
+        font-weight: 200;
+    }
+}
+
+p {
+    font-weight: 100;
+    font-size: 1.35rem;
+    margin-top: 0;
+    margin-bottom: 1rem;
+}
+
+a {
+    color: #FFF;
+}
+
+a:hover {
+    color: #FFF;
+}
